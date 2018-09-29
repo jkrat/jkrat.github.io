@@ -139,7 +139,17 @@
             width: 85%;
             height: 500px;
             margin: 0px auto;
+            background-color: #041024cb; 
         }
-        /* .main-content p {
-            colo
-        } */
+        .pong {
+            height: 200px;
+        }
+        .footerList {
+            margin: 15px auto;
+        }
+        .footerList li {
+            margin: 0px 50px;
+            font-size: 28px;
+            color:white;
+            text-align: center;
+        }
