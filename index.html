@@ -4,64 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projects</title>
-    <link rel="stylesheet" href="static/style.css">
+    <title>James Kratus</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
-</head>
-<body>
-    <nav id="navbar" class="navbar fixed-top hide flex-container">
-        <div></div>
-        <ul id="navtabs" class="inline hide">    
-            <li><a class="navbar-brand" href="#About">About</a></li>
-            <li><a class="navbar-brand" href="#Projects">Projects</a></li>
-            <li><a class="navbar-brand" href="#Skills">Skills</a></li>
-        </ul>
-    </nav>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> 
+   <link href="static/css/style.css" rel="stylesheet">
+   
+
+  </head>
+  <body id="page-top">
+    <nav id="nav" class="navbar navbar-expand-lg navy fixed-top">
+      <a class="navbar-toggler navbar-toggler-right navy" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars icon"></i>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-0 px-0 px-lg-3 js-scroll-trigger" href="#about">About</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-0 px-0 px-lg-3 js-scroll-trigger" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                  <a class="nav-link py-0 px-0 px-lg-3 js-scroll-trigger" href="#skills">Skills</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+
     <div class="box">
-        <div class="content">
-            <div class="main-content1">         
-                <h1 class="namet"><span>JAMES</span></h1>
-                <h1 class="nameb"><span>KRATUS</span></h1>
-                <span class="desc">// Full Stack Developer //</span>
-            </div>
-            </div> 
-        </div>
-    </div>
-    <div class="seperator">
-        <div class="content"> 
-            <h1>ABOUT ME</h1>
-        </div>
-    </div>
-    <div class="box">
-        <div class="content"> 
-            <div class="main-content">
-                <p>Full stack developer with a hands-on experience creating web applications using Python, MEAN and Java. I am most energized when I am learning, teaching, and creating. 
-                    As a software developer with a background in education, I bring a unique perspective and skill set to the table. Curious about what I mean by that? Contact me. I would love to tell you more about what I have to offer. 
-                    I am Passionate about developing ideas that will improve lives and add value to the world. I am looking to join an team in creating impactful solutions to real problems.</p>
-            </div>    
-        </div>
-    </div>
-    <div class="seperator">
-        <div class="content"> 
-                <h1>PROJECTS</h1>
-        </div>
-    </div>
+      <div class="content">
+          <div class="main-content1">         
+              <h1 class="namet"><span>JAMES</span></h1>
+              <h1 class="nameb"><span>KRATUS</span></h1>
+              <span class="description">// Full Stack Developer //</span>
+          </div>
+          </div> 
+      </div>
+  </div>
+
+  <div class="seperator"></div>
+
+  <div class="box">
+      <div class="content"> 
+          <h1 id="about">ABOUT ME</h1>
+          <div class="main-content-about">
+                <p>I am a Full stack developer with a hands-on experience creating web applications using Python, MEAN and Java. I am most energized when I am learning, teaching, and creating. 
+                  As a software developer with a background in education, I bring a unique perspective and skill set to the table.</p>
+                <p>I am Passionate about developing ideas that will improve lives and add value to the world. I am looking to join an team in creating impactful solutions to real problems.</p>
+                
+          </div>    
+      </div>
+  </div>
+
+  <div class="seperator"></div>
+    
     <div class="box">
         <div class="content">     
+            <h1 id="projects">PROJECTS</h1>
             <div class="main-content">
-                <h1>Replica Airbnb</h1>
+                <h2>Replica Airbnb</h2>
                 <div class="flex-container">
                     <div>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/Tea_LbyPkb0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                         <p>video shows mobile and desktop size side-by-side</p>
+                         <p>(video shows mobile and desktop size side-by-side)</p>
+                         <a class="btn project-btn" href="https://github.com/jkrat/Airbnb-replica">See the code on GitHub</a>
                     </div>
                     <div class="desc">
-                    <p>An AirBnB inspired sight for travelers book their stays around the country. The site includes registration and login, the ability to create and book listings, searching listings by city and attributes, and leaving reviews. Built using Django, Python, Bootstrap, JS, and a MySQL server on the back end.</p>
+                        <p>An AirBnB inspired traveler site. It includes registration and login, the ability to create and book listings, searching listings by city and attributes, and leaving reviews. Built using Django, Python, Bootstrap, JS, and a MySQL server on the back end.</p>
                     </div>
-                </div>
-                <div class="flex-container">
-                    <a class="btn" href="https://github.com/jkrat/Airbnb-replica">See the code on GitHub</a>
                 </div>
             </div> 
         </div>
@@ -69,16 +80,18 @@
     <div class="box">
         <div class="content"> 
             <div class="main-content">
-                <h1>Let's Eat</h1>
+                <h2>Let's Eat</h2>
                 <div class="flex-container">
                     <div>
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/4UGAvopR31c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div class="flex-container-around">
+                            <a class="btn project-btn" href="http://18.220.28.5">Visit the deployed site</a>
+                            <a class="btn project-btn" href="https://github.com/jkrat/LetsEat">See the code on GitHub</a>
+                        </div>
                     </div>
-                    <p>A simple application for browsing restaurants and leaving reviews. Built with MongoDB, Express, Angular and Node.js. Visuals enhanced with Angular animations. Feel free to check it out an leave a review of your favorite restaurant.</p>
-                </div>
-                <div class="flex-container">
-                    <a class="btn" href="http://18.220.28.5">Visit the deployed site</a>
-                    <a class="btn" href="https://github.com/jkrat/LetsEat">See the code on GitHub</a>
+                    <div class="desc">
+                        <p>A simple application for browsing restaurants and leaving reviews. Built with MongoDB, Express, Angular and Node.js. Visuals enhanced with Angular animations. Feel free to check it out an leave a review of your favorite restaurant.</p>
+                    </div>
                 </div>
             </div>    
         </div>
@@ -86,73 +99,119 @@
     <div class="box">
         <div class="content"> 
             <div class="main-content">
-                <h1>Space PONG (work in progress)</h1>
+                <h2>Space PONG (work in progress)</h2>
                 <div class="flex-container">
-                        <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img class="d-block w-100" src="./static/PONG1.png" alt="First slide">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img class="d-block w-100" src="./static/PONG2.png" alt="Second slide">
-                                  </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
-                                </a>
-                              </div> -->
-                              <div>
-                    <img class="pong" src="./static/PONG2.png">
-                    <img class="pong" src="./static/PONG1.png">
-                </div>
-                    <p>Multiplayer web-based Pong game build with Java Spring and Angular utilizing websockets. I am on a team of 5 people working on this. Check back for more updates.</p>
-                </div>
-                <div class="flex-container">
-                    <a class="btn" href="https://github.com/Skyler827/PongApp">See the code on GitHub</a>
+                  <div>
+                      <img class="pong" src="static/img/PONG2.png">
+                      <a class="btn project-btn" href="https://github.com/Skyler827/PongApp">See the code on GitHub</a>
+                  </div>
+                  <div class="desc">
+                      <p>Multiplayer web-based Pong game build with Java Spring and Angular utilizing websockets. I am on a team of 5 people working on this. Check back for more updates.</p>
+                  </div>
                 </div>
             </div>    
         </div>
     </div>
-    <div class="seperator">
-        <div class="content">
-                <h1></h1>
-        </div>
-    </div>
+
+    <div class="seperator"></div>
+
     <div class="box">
         <div class="content"> 
-            <div class="main-content">
-                    <div class="owl-carousel">
-                        <div> Skills </div>
-                    </div>
+            <h1 id="skills">Skills</h1>
+            <div class="main-content-white">
+              <div class="row skillRow">
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Ajax" src="static/img/skills/ajax.png" alt="ajax">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Angular" src="static/img/skills/angular.png" alt="Angular">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Bootstrap" src="static/img/skills/bootstrap.png" alt="bootstrap">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Django" src="static/img/skills/django.png" alt="Django">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Express.js" src="static/img/skills/expressjs.png" alt="Expressjs">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Github" src="static/img/skills/github.png" alt="github">
+                </div>
+              </div>
+              <div class="row skillRow">
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="HTML5/JS/CSS3" src="static/img/skills/html5.png" alt="html5">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Java" src="static/img/skills/java.png" alt="java">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="jQuery" src="static/img/skills/jquery.png" alt="jquery">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="JSON" src="static/img/skills/json.png" alt="json">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="MongoDB" src="static/img/skills/mongodb.png" alt="mongodb">
+                </div>
+              </div>
+              <div class="row skillRow">
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="MySQL" src="static/img/skills/mysql.png" alt="mysql">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Node.js" src="static/img/skills/nodejs.png" alt="nodejs">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="NPM" src="static/img/skills/npm.png" alt="npm">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Python" src="static/img/skills/python.png" alt="Python">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Spring" src="static/img/skills/spring.png" alt="spring">
+                </div>
+                <div class="col s2 m2">
+                  <img class="skills" data-toggle="tooltip" data-placement="top" title="Visual Studio Code" src="static/img/skills/vscode.png" alt="vscode">
+                </div>
+              </div>
+                   
             </div>    
         </div>
     </div>
-    <!-- <footer class="footer">
-        <div class="content"> 
-            <ul class="inline footerList">
-                <li><a href="github.com/jkrat"><i class="fab fa-github"></i></a></li>
-                <li>//</li>
-                <li><a href="www.linkedin.com/in/jameskratus/"><i class="fab fa-linkedin"></i></a></li>
-            </ul>   
-        </div> -->
-    <!-- </footer> -->
-    <nav class="navbar fixed-bottom">
-        <ul class="inline footerList">
-            <li><a href="github.com/jkrat"><i class="fab fa-github"></i></a></li>
-            <li>//</li>
-            <li><a href="www.linkedin.com/in/jameskratus/"><i class="fab fa-linkedin"></i></a></li>
-        </ul>  
-    </nav>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</body>
+
+
+    <div id="modal1" class="modal" tabindex="-1">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog vertical-align-center">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2>MY RESUME</h2>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <object type="application/pdf" data="./Resume.pdf" width="100%" id="pdf"></object>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="navy">
+      <ul id="flex-container" class="footer">
+          <li></li>
+          <li><a href="https://www.github.com/jkrat"><i class="fab fa-github"></i></a></li>
+          <li>//</li>
+          <li><a href="https://www.linkedin.com/in/jameskratus/"><i class="fab fa-linkedin"></i></a></li>
+          <li></li>
+      </ul> 
+    </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="libraries/bootstrap/js/bootstrap.bundle.js"></script>
+   <script src="libraries/jquery-easing/jquery.easing.js"></script>
+   <script src="static/js/main.js"></script>
+
+  </body>
 </html>
